@@ -1,0 +1,65 @@
+.carousel-item img {
+    height: 300px;
+    /* Ajusta a tu necesidad */
+    object-fit: fill;
+    /* cover: Evita que la imagen se estire */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background: #999;
+}
+
+/* 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1; /* Ocupa el espacio restante */
+}
+
+footer {
+    margin-top: auto;
+    /* Empuja el footer al final */
+}
+
+*/

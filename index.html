@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecommerce M2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+</head>
+
+<body>
+    <header>
+        <!-- este es el navbarr original que lo separé como una plantilla -->
+        <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Venta Productos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Carrito</a>
+                        <a class="nav-link" href="#">Ofertas</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav> -->
+        <!-- usar este div cuando se aplique una plantilla para navbar -->
+        <div id="navbar-container"></div>
+        <div class="shadow fs-3 p-3 mb-5 bg-body-tertiary rounded"> </div>
+    </header>
+
+    <h2 class=" text-center"> Novedades</h1>
+        <div class="container py-5">
+            <h1 class="text-center mb-5">Nuestros Nuevos Productos</h1>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4" id="cards">
+                <template id="template-producto">
+                    <!-- este es un template con la estructura html que voy a replicar con javascript, cargando los productos
+                    desde un archivo json -->
+                    <div class="col">
+                        <div class="card h-150">
+                            <img src="./assets/img/chaquetas/chaqueta-hombre_01.webp" class="card-img-top"
+                                alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Chaqueta de hombre_07</h5>
+                                <h2 class="card-subtitle">15.000</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button type="button" class="btn btn-primary" id="btnDetalle">Ver Detalle</button>
+
+                                <button type="button" class="btn btn-primary" id="btnAgregar">
+                                    <i class="bi bi-cart-plus-fill"></i>+
+                                </button>
+                            </div>
+                        </div>
+                </template>
+            </div>
+            <!-- <div class="col">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/500x200" class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Product 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/500x200" class="card-img-top" alt="Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Product 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/500x200" class="card-img-top" alt="Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Product 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div> -->
+
+
+
+
+        </div>
+
+
+        <footer class="bg-secondary text-dark  opacity-75  py-4 ">
+            <div class="container">
+                <p class="mb-0 text-center ">
+                    Footer para pagina boostrap
+                    Tarea python
+                </p>
+            </div>
+        </footer>
+        <!-- <script>
+            //este script es para usar el navbarr como plantilla html sin usar ningun framework        
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-container').innerHTML = data;
+                });
+        </script> -->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <script type="module" src="./assets/js/ecommerce.js"></script>
+</body>
+
+</html>

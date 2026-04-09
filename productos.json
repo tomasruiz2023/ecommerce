@@ -1,0 +1,68 @@
+[
+	{
+		"id": 1,
+		"titulo": "Chaqueta de hombre_01",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_01.jpg"
+	},
+	{
+		"id": 2,
+		"titulo": "Chaqueta de hombre_02",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_01.jpg"
+	},
+	{
+		"id": 3,
+		"titulo": "Chaqueta de hombre_03",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_03.jpg"
+	},
+	{
+		"id": 4,
+		"titulo": "Chaqueta de hombre_04",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_04.jpg"
+	},
+	{
+		"id": 5,
+		"titulo": "Chaqueta de hombre_05",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_05.jpg"
+	},
+	{
+		"id": 6,
+		"titulo": "Chaqueta de hombre_06",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_06.jpg"
+	},
+	{
+		"id": 7,
+		"titulo": "Chaqueta de hombre_07",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_07.jpg"
+	},
+	{
+		"id": 8,
+		"titulo": "Chaqueta de hombre_08",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_08.jpg"
+	},
+	{
+		"id": 9,
+		"titulo": "Chaqueta de hombre_09",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_09.jpg"
+	},
+	{
+		"id": 10,
+		"titulo": "Chaqueta de hombre_10",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_10.jpg"
+	},
+	{
+		"id": 11,
+		"titulo": "Chaqueta de hombre_11",
+		"precio": 15000,
+		"imagen": "./assets/img/chaquetas/chaqueta-hombre_10.jpg"
+	}
+]
